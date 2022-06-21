@@ -1,0 +1,68 @@
+{
+    "personagens":[
+       {
+          "id": 0,
+          "nacao":"Floresta",
+          "casa":"Épica",
+          "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "personagens":["Elfos", "Gnomo"],
+          "foto":"imagens/elfo.jpg"
+       },
+       {
+          "id": 1,
+          "nacao":"Cidade",
+          "casa":"Clériga",
+          "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "personagens":["Humanos","Anão"],
+          "foto":"imagens/humano.png"
+       },
+       {
+          "id": 2,
+          "nacao":"Castelos",
+          "casa":"Monges",
+          "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "personagens":["Guerreiro","Ladino"],
+          "foto":"imagens/bruxo.jpg"
+       },
+       {
+          "id": 3,
+          "nacao":"Magia",
+          "casa":"Magnanima",
+          "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "personagens":["Mago","Bruxos"],
+          "foto":"imagens/mago.jpg"
+       },
+       {
+          "id": 4,
+          "nacao":"Druidas",
+          "casa":"Nordica",
+          "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "personagens":["Bárbaro","Monge"],
+          "foto":"imagens/druida.jpg"
+       },
+       {
+          "id": 5,
+          "nacao":"Guardiã",
+          "casa":"Guerreira",
+          "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "personagens":["Draconato","Clérigo"],
+          "foto":"imagens/guerreiro.jpg"
+       },
+       {
+          "id": 6,
+          "nacao":"Arcanjos",
+          "casa":"Alada",
+          "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "personagens":["Fada","Anjos"],
+          "foto":"imagens/anjo.jpg"
+       },
+       {
+          "id": 7,
+          "nacao":"Paladinos",
+          "casa":"Picos",
+          "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "personagens":["Ladino","Bardo"],
+          "foto":"imagens/paladino.jpg"
+       }
+    ]
+ }

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<!--NOME: Gabriel Wallace Lopes dos Santos
+		MATRÍCULA: 202102289289
+		CURSO: Análise e Desenvolvimento de Sistema -->
+
+	<meta charset="utf-8">
+	<title>MeuBlog - Trabalho de Desenvolvimento Web</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+<div id="area-cabecalho">
+
+		<div id="area-logo">
+			<h1>Batalha na<span class="branco">Terra média</span></h1>
+		</div>
+
+		<div id="area-menu">
+			
+			<a href="index.html">Início</a>
+			<a href="JogabilidadePersonagem.html">Jogabilidade e Personagem</a>
+			<a href="CrieSeuPersonagem.html">Crie seu Personagem</a>
+			<a href="sobre.html">Sobre</a>
+		
+		</div>
+		
+		</div>
+
+	</div>
+
+	<!--ABERTURA POSTAGEM-->
+	<div id="area-principal">
+
+			<div id="area-postagens">
+				
+				<div class="postagem">
+					<h2>Crie Seu Personagem</h2>
+					
+				</div>
+				<div class="row">
+				
+					<br><br>
+					
+					<form>
+						<label for="inputNome">Nome:</label>
+						<input type="text" name="inputNome">	
+						<br><br>
+						<label for="inputNacao">Nação:</label>
+						<br><br>
+							<div>
+								<label>
+									Anão<input type="radio" name="seletor" value="anao">
+									
+									Hobbit<input type="radio" name="seletor" value="hobbit">
+									
+									Cavaleiro<input type="radio" name="seletor" value="cavaleiro">
+									
+									Guerreiro<input type="radio" name="seletor" value="guerrreiro">
+									
+									Elfo da Floresta<input type="radio" name="seletor" value="elfofloresta"
+									>
+									Elfo de Lothlorien<input type="radio" name="seletor" value="elfolothlorien">
+									Uruk Hai<input type="radio" name="seletor" value="orc">
+								</label>
+								
+							</div>
+							
+								
+							<br><br>
+
+						<label for="textAreaMensagem">Habilidade:</label>
+						<br><br>
+						<label>
+						Força<input type="number" name="quantidade" min="1" max="1000">
+						</label>
+						<label>
+						Precisão<input type="number" name="quantidade" min="1" max="1000"> 
+						</label>
+						<label>
+						Velocidade <input type="number" name="quantidade" min="1" max="1000">
+						</label>
+						<label>
+						Armadura<input type="number" name="quantidade" min="1" max="1000">
+						</label>
+						<label>
+						Recuperação <input type="number" name="quantidade" min="1" max="1000"> 
+						
+						</label>   
+
+
+							<br><br><br>
+
+						<button>Criar Personagem</button>
+
+						<br><br><br><br>
+
+
+						<button onclick="InserirNovoForm()">
+							<h1> + </h1>
+						</button>
+						
+						<script src="js/script.js"></script>
+
+						
+						
+					</form>
+				
+				</div>
+
+				<br><br><br><br><br>
+
+					
+					</form>
+				
+
+				</div>
+				<br><br><br><br>
+				
+
+			</div>
+		
+			
+	</div>
+	<!--FECHAMENTO POSTAGEM-->
+
+			<div id="area-lateral">
+				
+				<div class="conteudo-lateral">
+					<h3>Postagens recentes</h3>
+					<div class="postagem-lateral">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="">Leia mais</a>
+					</div>
+
+					<div class="postagem-lateral" style="border-bottom: none;">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="">Leia mais</a>
+					</div>
+				</div>
+
+				<div class="conteudo-lateral">
+					
+					<h3>Categorias</h3>
+					<br>
+					<a href="">Jogos</a><br>
+					
+				</div>
+
+			</div>
+
+
+			<div id="rodape">
+				<p>Todos os direitos reservados</p>
+				<p>Cursos de TI da Estácio de Brasília em 2022.1 (TIEB 2022.1)</p>
+				<p>(terra media, Locais e Personagem são direitos de <a href="https://www.middleearth.com/home.html">Terra Média</a>)</p>
+				
+			</div>
+	</div>
+
+
+</body>
+</html>
